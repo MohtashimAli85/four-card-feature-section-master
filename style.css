@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+:root {
+  /* Primary */
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+  /* Neutral */
+  --DarkBlue: hsl(234, 12%, 34%);
+  --GrayishBlue: hsl(229, 6%, 66%);
+  --LightGray: hsl(0, 0%, 98%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 15px;
+  font-family: Poppins;
+  background-color: var(--LightGray);
+}
+.x {
+  margin: 90px 40px;
+}
+h5 {
+  color: var(--DarkBlue);
+}
+.text {
+  text-align: center;
+}
+.text .light {
+  font-size: 1.55em;
+  font-weight: 200;
+}
+.text .bold {
+  font-size: 1.54em;
+  font-weight: 600;
+}
+p {
+  color: var(--GrayishBlue);
+}
+.text p {
+  margin-top: 24px;
+}
+.y {
+  margin-top: 78px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box {
+  border-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 19px 19px;
+  max-width: 337px;
+  max-height: 250px;
+  -webkit-box-shadow: 11px 11px 14px -14px rgba(0, 0, 0, 0.22),
+    -11px 11px 14px -14px rgba(0, 0, 0, 0.22),
+    -11px 11px 14px -14px rgba(0, 0, 0, 0.22);
+  box-shadow: 11px 11px 14px -14px rgba(0, 0, 0, 0.22),
+    -11px 11px 14px -14px rgba(0, 0, 0, 0.22),
+    -11px 11px 14px -14px rgba(0, 0, 0, 0.22);
+}
+.content h5 {
+  font-size: 1em;
+  margin-bottom: 14px;
+}
+.content p {
+  font-size: 13px;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+.icon {
+  display: flex;
+  justify-content: flex-end;
+}
+.top-one {
+  border-top: 3px solid var(--Cyan);
+}
+.top-two {
+  border-top: 3px solid var(--Red);
+  margin-top: 24px;
+}
+.top-three {
+  border-top: 3px solid var(--Orange);
+  margin-top: 24px;
+}
+.top-four {
+  border-top: 3px solid var(--Blue);
+  margin-top: 24px;
+}
+.intra {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (min-width: 500px) {
+  .x {
+    margin: 40px;
+  }
+  .text .light {
+    font-size: 1.5em;
+  }
+  .text .bold {
+    font-size: 1.5em;
+  }
+  .y {
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+  .content h5 {
+    font-size: 1.2em;
+  }
+  .content p {
+    font-size: 13px;
+  }
+  .top-two {
+    margin: 24px 24px 0;
+  }
+  .top-three {
+    margin: 24px 24px 0;
+  }
+  .top-four {
+    margin-top: 24px;
+  }
+}
+
+@media screen and (min-width: 1142px) {
+  .x {
+    margin: 40px;
+  }
+  .text .light {
+    font-size: 2em;
+  }
+  .text .bold {
+    font-size: 2em;
+  }
+  .text p {
+    white-space: pre;
+  }
+  .y {
+    margin-top: 30px;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .intra {
+    flex-direction: column;
+  }
+  .content h5 {
+    font-size: 1.4em;
+  }
+  .content p {
+    font-size: 14px;
+  }
+
+  .top-two {
+    margin: 0 24px;
+    margin-top: 0;
+  }
+  .top-three {
+    margin: 24px 24px 0;
+  }
+  .top-four,
+  .top-one {
+    margin-top: 122px;
+  }
+}
