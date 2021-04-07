@@ -28,13 +28,12 @@ h5 {
 }
 .text {
   text-align: center;
+  font-size: 1.55em;
 }
 .text .light {
-  font-size: 1.55em;
   font-weight: 200;
 }
 .text .bold {
-  font-size: 1.54em;
   font-weight: 600;
 }
 p {
