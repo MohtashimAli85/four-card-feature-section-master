@@ -39,8 +39,11 @@ h5 {
 p {
   color: var(--GrayishBlue);
 }
-.text p {
+.sub-text p {
   margin-top: 24px;
+}
+.sub-text {
+  font-size: 15px;
 }
 .y {
   margin-top: 78px;
@@ -102,11 +105,11 @@ p {
   .x {
     margin: 40px;
   }
-  .text .light {
-    font-size: 1.5em;
+  .text {
+    font-size: 2em;
   }
-  .text .bold {
-    font-size: 1.5em;
+  .sub-text {
+    font-size: 16px;
   }
   .y {
     margin-top: 40px;
@@ -133,11 +136,11 @@ p {
   .x {
     margin: 40px;
   }
-  .text .light {
-    font-size: 2em;
+  .text {
+    font-size: 3em;
   }
-  .text .bold {
-    font-size: 2em;
+  .sub-text {
+    font-size: 18px;
   }
   .text p {
     white-space: pre;
